@@ -1,0 +1,34 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <system>
+        <tab id="kinglivinggeo" translate="label" sortOrder="51">
+            <label>KingLiving CMS</label>
+        </tab>
+
+        <section id="geo_config" translate="label" type="text" sortOrder="200" showInDefault="1" showInWebsite="1" showInStore="0">
+            <label>GeoIP</label>
+            <tab>kinglivinggeo</tab>
+            <resource>KingLiving_GeoBlocking::geoip</resource>
+
+            <group id="option_group" translate="label" type="text" sortOrder="1"
+                   showInDefault="1" showInWebsite="1" showInStore="0">
+                <label>Configuration Options Maxmind</label>
+
+                <field id="account_id" translate="label" type="text" sortOrder="1"
+                       showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>Account Id</label>
+                </field>
+
+                <field id="license_key" translate="label" type="text" sortOrder="2"
+                       showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>License Key</label>
+                </field>
+                <field id="url_key" translate="label" type="text" sortOrder="3"
+                       showInDefault="1" showInWebsite="1" showInStore="0">
+                    <label>License Key</label>
+                </field>
+
+            </group>
+        </section>
+    </system>
+</config>

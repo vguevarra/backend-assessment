@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="footer">
+            <arguments>
+                <argument name="template"
+                          xsi:type="string">KingLiving_GeoBlocking::cmsblock.phtml</argument>
+            </arguments>
+        </referenceBlock>
+    </body>
+</page>
+    <!--        <referenceBlock name="footer_links" remove="true"/>-->
+    <!--        <referenceBlock name="footer">-->
+    <!--            <action method='setTemplate'>-->
+    <!--                <argument name='template' xsi:type='string'>cmsBlock.phtml</argument>-->
+    <!--            </action>-->
+    <!--        </referenceBlock>-->
+
+    <!--        <referenceBlock name="footer" template="KingLiving_GeoBlocking::html/cmsBlock.phtml" />-->
+    <!--        <referenceContainer name="before.body.end">-->
+    <!--            <block name="cmsBlock" class="Magento\Framework\View\Element\Template"-->
+    <!--                   template="KingLiving_GeoBlocking::html/cmsBlock.phtml" />-->
+    <!--        </referenceContainer>-->

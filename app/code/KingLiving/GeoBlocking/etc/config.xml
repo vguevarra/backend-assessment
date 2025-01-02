@@ -1,0 +1,11 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <geo_config>
+            <option_group>
+                <account_id></account_id>
+                <license_key></license_key>
+                <url_key>https://geolite.info/geoip/v2.1/country/me?pretty</url_key>
+            </option_group>
+        </geo_config>
+    </default>
+</config>
